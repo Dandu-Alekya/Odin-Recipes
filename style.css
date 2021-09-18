@@ -69,6 +69,7 @@ em{
     padding: 16px;
     margin: 16px;
     border: 1px solid #eee;
+    width: 400px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     text-align: center;
