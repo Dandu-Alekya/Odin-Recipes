@@ -48,7 +48,7 @@ a{
     right: 0;
     height: 52px;
     display: flex;
-    align-items: center;;
+    align-items: center;
     justify-content:space-evenly;
     background:rgb(70, 0, 0);
     color:white;
@@ -62,7 +62,6 @@ em{
 .container {
     padding: 32px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
   }
   
@@ -70,7 +69,6 @@ em{
     padding: 16px;
     margin: 16px;
     border: 1px solid #eee;
-    flex-direction: column;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     text-align: center;
