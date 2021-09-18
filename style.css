@@ -1,11 +1,11 @@
-.body{
+body{
+    margin: 0;
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    background-color: #e97452;
-    font-family: 'Courier New', Courier, monospace;
-    margin:0;
-    padding:0;
+    font-family: monospace;
+    background-color: rgb(43, 43, 43);
+    color:white;
 }
 
 .welcome{
@@ -31,12 +31,15 @@ a{
 }
 
 .header{
-    display:flex;
+    height: 72px;
+    color: white;
+    background-color: rgb(70, 0, 0);
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-size: 30px;
-    color:white;
-    padding:10px;
-    background-color: #b12e21;;
+    padding: 0 16px;
+    font-size: 32px;
+    font-weight: 900;
 }
 
 .footer{
@@ -47,12 +50,13 @@ a{
     display: flex;
     align-items: center;;
     justify-content:space-evenly;
-    background:#b12e21;
+    background:rgb(70, 0, 0);
     color:white;
+    font-size: 15px;
 }
 
 em{
-    font-size:20px;
+    font-size:25px;
 }
 
 .container {
@@ -70,11 +74,13 @@ em{
     border-radius: 4px;
     width: 300px;
     text-align: center;
+    font-size:20px;
+    background-color:rgb(83, 83, 83);
   }
 
 .recipies{
     display:flex;
-    background-color: #c34632;
+    background-color: rgb(83, 83, 83);
     justify-content: space-between;
     align-items: center;
     text-align: center;
