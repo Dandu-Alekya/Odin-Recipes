@@ -51,6 +51,27 @@ a{
     color:white;
 }
 
+em{
+    font-size:20px;
+}
+
+.container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    width: 300px;
+    text-align: center;
+  }
+
 .recipies{
     display:flex;
     background-color: #c34632;
